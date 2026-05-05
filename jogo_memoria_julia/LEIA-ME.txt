@@ -1,0 +1,19 @@
+Jogo da Memória da Júlia
+
+Como rodar no Windows:
+
+1) Instale o Python 3.
+2) Abra o Prompt de Comando dentro desta pasta.
+3) Rode:
+   pip install -r requirements.txt
+
+4) Depois rode:
+   python jogo_memoria_julia.py
+
+Se não instalar o pyttsx3, o jogo ainda tenta usar a voz do Windows.
+
+Para adicionar novos animais, objetos ou pessoas:
+- Abra o arquivo jogo_memoria_julia.py
+- Procure a lista ITENS
+- Adicione uma nova linha seguindo o modelo:
+  {"nome": "Cavalo", "emoji": "🐴", "categoria": "Animais"},
